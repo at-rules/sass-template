@@ -7,7 +7,6 @@
   "author": "Kyle Essex <kylegavinessex@hotmail.com>",
   "main": "dist/index.css",
   "style": "dist/index.scss",
-  "sass": "src/index.scss",
   "scripts": {
     "test": "jest --env=node",
     "lint": "stylelint src/**/*.scss",
@@ -18,9 +17,11 @@
   },
   "devDependencies": {
     "glob": "^7.1.7",
+    "jest": "^27.0.3",
     "sass-true": "^6.0.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-scss": "^3.19.0"
-  }
+  },
+  "sass": "src/index.scss"
 }
