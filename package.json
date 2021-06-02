@@ -5,8 +5,8 @@
   "repository": "git@github.com:at-rules/sass-template.git",
   "license": "MIT",
   "author": "Kyle Essex <kylegavinessex@hotmail.com>",
-  "main": "dist/index.css",
-  "style": "dist/index.scss",
+  "main": "src/index.css",
+  "style": "src/index.scss",
   "scripts": {
     "test": "jest --env=node",
     "lint": "stylelint src/**/*.scss",
